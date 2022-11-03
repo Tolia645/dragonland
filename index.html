@@ -1,7 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Dragon Land</title>
+    <style>
+        .container {
+          position: relative;
+          text-align: left;
+          color: white;
+        }
+        
+        .bottom-left {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+        }
+        
+        .top-left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+        
+        .top-right {
+          position: absolute;
+          top: 8px;
+          right: 16px;
+        }
+        
+        .bottom-right {
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+        }
+        
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        </style>
 </head>
 <body>
     <div style="background-color:black">
@@ -11,6 +50,7 @@
         </div>
         <div style="background-color:black; color: white;">
             <img src="https://cs11.pikabu.ru/post_img/big/2018/06/22/7/1529667051178962116.jpg"/>
+            <div class="container">Bottom Right</div>
         </div>
     </div>
 </body>    
